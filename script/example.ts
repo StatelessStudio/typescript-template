@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { env } from '../src/environment';
 
 /**
