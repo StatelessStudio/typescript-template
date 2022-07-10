@@ -12,7 +12,7 @@
    ```bash
    git remote add template https://github.com/StatelessStudio/typescript-template-library/ && git pull template master --allow-unrelated-histories && git remote remove template
    ```
-3. Replace "typescript-template-library" with the name of your app project-wide (**No Spaces or special characters except dash!**)
+3. Replace "typescript-template-library" with the name of your library project-wide (**No Spaces or special characters except dash!**)
 4. `npm i`
 5. Update the documentation, changelog, etc
 
@@ -28,11 +28,9 @@ Run a dev test with `npm start`.
 
 Here's a rundown of where to put your code, see each file for more information:
 
+- **script/example.ts**: Create an example application that uses your library
 - **src/environment.ts**: Setup environment variables here
 - **src/index.ts**: You don't typically need to edit this file, it just initializes and starts your app.
-- **src/log.ts**: This is your project's log, import this file to use the log. You can also extend/replace the log.
-- **src/main.ts**: This is the main entrypoint for your application, after services have been registered.
-- **src/register.ts**: This file initializes services such as database, SMTP, etc. that are used across different entrypoints of your application.
 
 ## Running Tests
 
