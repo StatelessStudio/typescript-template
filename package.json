@@ -5,7 +5,7 @@
 	"description": "typescript-template-library",
 	"scripts": {
 		"start": "npm run dev",
-		"dev": "ts-node src/index.ts",
+		"dev": "ts-node script/example.ts",
 		"watch": "nodemon .",
 		"test": "npm run build:dev:clean && npm run coverage",
 		"test:prod": "npm run build:prod:clean && npm run coverage",
