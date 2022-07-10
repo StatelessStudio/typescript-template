@@ -1,4 +1,4 @@
-# typescript-template
+# typescript-template-library
 
 ## Installation
 
@@ -10,13 +10,13 @@
 	```
 2. Install the template (Copy this into git bash).
    ```bash
-   git remote add template https://github.com/StatelessStudio/typescript-template/ && git pull template master --allow-unrelated-histories && git remote remove template
+   git remote add template https://github.com/StatelessStudio/typescript-template-library/ && git pull template master --allow-unrelated-histories && git remote remove template
    ```
-3. Replace "typescript-template" with the name of your app project-wide (**No Spaces or special characters except dash!**)
+3. Replace "typescript-template-library" with the name of your app project-wide (**No Spaces or special characters except dash!**)
 4. `npm i`
 5. Update the documentation, changelog, etc
 
-## Pulling updates from typescript-template
+## Pulling updates from typescript-template-library
 
 1. Run the install command in the installation instructions
 2. Resolve merge conflicts

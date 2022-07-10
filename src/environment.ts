@@ -4,7 +4,7 @@ import { AppConfig, configure } from 'ts-appconfig';
  * Environment Variables Schema
  */
 export class Environment extends AppConfig {
-	readonly APP_TITLE = 'typescript-template';
+	readonly APP_TITLE = 'typescript-template-library';
 }
 
 /**

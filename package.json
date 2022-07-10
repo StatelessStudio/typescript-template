@@ -1,8 +1,8 @@
 {
-	"name": "typescript-template",
+	"name": "typescript-template-library",
 	"version": "1.0.0",
 	"ts-project-version": "2.2.0",
-	"description": "typescript-template",
+	"description": "typescript-template-library",
 	"scripts": {
 		"start": "npm run dev",
 		"dev": "ts-node src/index.ts",
@@ -48,14 +48,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/StatelessStudio/typescript-template.git"
+		"url": "git+https://github.com/StatelessStudio/typescript-template-library.git"
 	},
 	"author": "stateless-studio",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/StatelessStudio/typescript-template/issues"
+		"url": "https://github.com/StatelessStudio/typescript-template-library/issues"
 	},
-	"homepage": "https://github.com/StatelessStudio/typescript-template#readme",
+	"homepage": "https://github.com/StatelessStudio/typescript-template-library#readme",
 	"keywords": [
 	]
 }
