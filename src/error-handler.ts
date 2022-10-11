@@ -15,5 +15,5 @@ export function errorHandler(error: Error): void {
 
 // Setup error handling
 setupErrorHandling({
-	handler: errorHandler
+	handler: errorHandler,
 });

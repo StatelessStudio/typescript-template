@@ -10,7 +10,7 @@
 		".log",
 		".env.example"
 	],
-	"watch": [ "src/", "*.*", ".env" ],
+	"watch": ["src/", "*.*", ".env"],
 	"exec": "node_modules/.bin/ts-node src",
 	"ext": "*"
 }
