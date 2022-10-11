@@ -1,22 +1,17 @@
-{
+module.exports = {
 	"root": true,
 	"parser": "@typescript-eslint/parser",
 	"plugins": [
 		"@typescript-eslint"
 	],
-	"extends": [
+	extends: [
 		"eslint:recommended",
-		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended"
 	],
-	"overrides": [
-		{
-			"files": ["*.ts"],
-			"parserOptions": {
-				"project": ["./tsconfig.json"]
-			}
-		}
-	],
+	parserOptions: {
+		project: "./tsconfig.json",
+		tsconfigRootDir: __dirname,
+	},
 	"rules": {
 		"no-console": 1,
 		"no-debugger": 1,
@@ -44,5 +39,5 @@
 		"@typescript-eslint/no-var-requires": 2,
 		"@typescript-eslint/promise-function-async": 1,
 		"@typescript-eslint/no-floating-promises": 2
-	}
-}
+	},
+};
