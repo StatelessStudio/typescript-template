@@ -16,6 +16,10 @@
 4. `npm i`
 5. Update the documentation, changelog, etc
 
+## Recommended IDE Extensions
+- ESLint to run static analysis
+- Prettier-ESLint (VSCode) or use `npm run lint` to format
+
 ## Pulling updates from typescript-template
 
 1. Run the install command in the installation instructions
