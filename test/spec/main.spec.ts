@@ -1,7 +1,7 @@
 import 'jasmine';
 
-describe('App', function() {
-	it('Can run', function() {
+describe('App', function () {
+	it('Can run', function () {
 		// TODO:
 	});
 });
